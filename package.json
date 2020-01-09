@@ -1,0 +1,27 @@
+{
+  "name": "css_dev",
+  "version": "1.0.0",
+  "description": "'Repositório com exercícios do treinamento de CSS3'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Silva/css_training.git"
+  },
+  "keywords": [
+    "css",
+    "css3",
+    "responsive",
+    "design",
+    "responsive",
+    "dev"
+  ],
+  "author": "Daniel Silva <dani3l.dxp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniel-Silva/css_training/issues"
+  },
+  "homepage": "https://github.com/Daniel-Silva/css_training#readme"
+}
