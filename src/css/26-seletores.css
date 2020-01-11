@@ -1,0 +1,28 @@
+/* Selecionando elementos por tag */
+html,
+main {
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+}
+
+section {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+p {
+	display: block;
+	width: 70%;
+	margin: 10px auto;
+	text-align: justify;
+}
