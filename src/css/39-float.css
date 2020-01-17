@@ -1,0 +1,140 @@
+html,
+body,
+main {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	height: 100%;
+}
+
+.box {
+	background: #fff;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+header {
+	height: 500px;
+	margin-bottom: 10px;
+}
+
+aside,
+article {
+	margin-bottom: 10px;
+}
+
+aside {
+	height: 250px;
+}
+
+article {
+	height: 700px;
+}
+
+footer {
+	height: 60px;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 7px !important;
+}
+::-webkit-scrollbar-track {
+	background: #fbfbfb !important;
+}
+::-webkit-scrollbar-thumb {
+	background: #b90311 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #292929 !important;
+}
+
+/*============================================================
+	For Large Desktop
+==============================================================*/
+
+@media (min-width: 1367px) {
+	aside {
+		width: 24%;
+		height: 700px;
+		float: left;
+	}
+
+	article {
+		width: 75.4%;
+		height: 700px;
+		float: right;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 992px) and (max-width: 1366px) {
+	aside {
+		width: 24%;
+		height: 700px;
+		float: left;
+	}
+
+	article {
+		width: 75.4%;
+		height: 700px;
+		float: right;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 767px) and (max-width: 991px) {
+	header {
+		height: 700px;
+	}
+
+	aside {
+		width: 24%;
+		height: 700px;
+		float: left;
+	}
+
+	article {
+		width: 75.4%;
+		height: 700px;
+		float: right;
+	}
+
+	footer {
+		clear: both;
+	}
+}
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 766px) {
+	header {
+		height: 700px;
+	}
+}
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 479px
+==============================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	header {
+		height: 700px;
+	}
+}
